@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "max-line-length": [true, 140],
+    "object-literal-sort-keys": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "always"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ]
+  }
+}

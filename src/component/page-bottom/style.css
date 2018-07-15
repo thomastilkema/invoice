@@ -1,0 +1,7 @@
+.page-bottom {
+  bottom: 24px;
+  color: var(--color-gray-light);
+  left: 24px;
+  position: absolute;
+  right: 24px;
+}

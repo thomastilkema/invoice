@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "jsx": "react",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["./src/*"],
+      "@root/*": ["./*"]
+    },
+  },
+  "include": [
+    "./mock/**/*",
+    "./src/**/*"
+  ]
+}

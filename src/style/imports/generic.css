@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8f8;
+  color: var(--color-text);
+  font-family: "Open Sans", sans-serif;
+  font-size: var(--font-size-text);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+@page {
+  background: #f8f8f8;
+  size: A4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  display: inline-block;
+}
+
+p {
+  margin-bottom: calc( var(--spacing-block) / 2 );
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  display: block;
+  height: 1px;
+  margin: calc(var(--spacing-block) / 4) 0;
+  padding: 0;
+}

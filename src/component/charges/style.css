@@ -1,0 +1,19 @@
+.table--invoice {
+  margin-bottom: calc( var(--spacing-block) * 1.5);
+}
+
+.table--invoice__column-quantity {
+  width: 50px;
+}
+
+.table--invoice__column-amount {
+  width: 94px;
+}
+
+.table--invoice__column-total {
+  width: 126px;
+}
+
+.table--invoice__column-vat {
+  width: 68px;
+}

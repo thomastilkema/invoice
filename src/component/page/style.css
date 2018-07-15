@@ -1,0 +1,22 @@
+.page {
+  display: block;
+  min-height: 29.7cm;
+  padding: var(--spacing-block);
+  page-break-after: always;
+  position: relative;
+}
+
+.page:not(:first-child):after {
+  border-bottom: 2px dashed var(--color-border-dark);
+  content: '';
+  left: calc( (100vw - 21cm) / -2 );
+  position: absolute;
+  right: calc( (100vw - 21cm) / -2 );
+  top: -1px;
+}
+
+@media print {
+  .page:after {
+      display: none;
+  }
+}

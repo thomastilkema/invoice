@@ -1,0 +1,39 @@
+.page-top {
+  margin-bottom: calc(var(--spacing-block) * 3);
+}
+
+.page-intro {
+  float: left;
+}
+
+.page-title {
+  font-size: 2.4em;
+  font-weight: bold;
+  line-height: 1.4;
+  margin: 9px 0;
+}
+
+.invoice-from {
+  float: right;
+  width: 252px;
+}
+
+.invoice-from__pay-off {
+  display: block;
+}
+
+.invoice-from__details {
+  position: relative;
+  margin-left: -80px;
+}
+
+.invoice-from__details th {
+  font-weight: normal;
+  padding-right: .5em;
+  text-align: right;
+  width: 80px;
+}
+
+.invoice-dates td {
+  padding-left: 8px;
+}
